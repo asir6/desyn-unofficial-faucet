@@ -3,6 +3,9 @@
     <v-main>
       <GithubCorner
         url="https://github.com/asir6/desyn-unofficial-faucet"
+        leftCorner
+        cornerColor="black"
+        gitColor="white"
       ></GithubCorner>
       <v-container class="d-flex flex-column">
         <span class="align-self-center text-h3 my-10"
@@ -50,8 +53,15 @@
               </v-container>
             </v-stepper-content>
           </v-stepper-items>
-        </v-stepper></v-container
-      >
+        </v-stepper>
+
+        <span class="align-self-center text my-10">
+          If it helps in any way, please give me a ⭐️ on
+          <a href="https://github.com/asir6/desyn-unofficial-faucet">Github</a>
+          or a ❤️ on <a href="https://twitter.com/airdropguide888">Twitter</a>.
+          Thanks!</span
+        >
+      </v-container>
       <v-snackbar v-model="showError">
         {{ errorMsg }}
 
