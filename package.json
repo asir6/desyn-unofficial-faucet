@@ -5,11 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "ethers": "^5.5.4",
+    "gh-pages": "^3.2.3",
     "vue": "^2.6.11",
     "vue-github-corners": "^1.2.3",
     "vuetify": "^2.6.0"
@@ -45,5 +47,6 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "homepage": "https://asir6.github.io/desyn-unofficial-faucet/"
 }
